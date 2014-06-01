@@ -21,6 +21,7 @@
 		B256DEFE193ACE3700AA7791 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B256DEE0193ACE3700AA7791 /* UIKit.framework */; };
 		B256DF06193ACE3700AA7791 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B256DF04193ACE3700AA7791 /* InfoPlist.strings */; };
 		B256DF08193ACE3700AA7791 /* Race_To_The_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B256DF07193ACE3700AA7791 /* Race_To_The_TopTests.m */; };
+		B256DF13193ACEA600AA7791 /* KJSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = B256DF12193ACEA600AA7791 /* KJSpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B256DF03193ACE3700AA7791 /* Race To The TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race To The TopTests-Info.plist"; sourceTree = "<group>"; };
 		B256DF05193ACE3700AA7791 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B256DF07193ACE3700AA7791 /* Race_To_The_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_To_The_TopTests.m; sourceTree = "<group>"; };
+		B256DF11193ACEA600AA7791 /* KJSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJSpaceShipView.h; sourceTree = "<group>"; };
+		B256DF12193ACEA600AA7791 /* KJSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJSpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				B256DEEB193ACE3700AA7791 /* KJAppDelegate.h */,
 				B256DEEC193ACE3700AA7791 /* KJAppDelegate.m */,
 				B256DEEE193ACE3700AA7791 /* Main.storyboard */,
+				B256DF11193ACEA600AA7791 /* KJSpaceShipView.h */,
+				B256DF12193ACEA600AA7791 /* KJSpaceShipView.m */,
 				B256DEF1193ACE3700AA7791 /* KJViewController.h */,
 				B256DEF2193ACE3700AA7791 /* KJViewController.m */,
 				B256DEF4193ACE3700AA7791 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B256DF13193ACEA600AA7791 /* KJSpaceShipView.m in Sources */,
 				B256DEF3193ACE3700AA7791 /* KJViewController.m in Sources */,
 				B256DEE9193ACE3700AA7791 /* main.m in Sources */,
 				B256DEED193ACE3700AA7791 /* KJAppDelegate.m in Sources */,
@@ -380,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Race To The Top/Race To The Top-Prefix.pch";
 				INFOPLIST_FILE = "Race To The Top/Race To The Top-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
